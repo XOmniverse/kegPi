@@ -17,7 +17,6 @@ end
 
 def read_temp()
   lines = read_temp_raw()
-  #while lines[0].strip()[-3] != "YES" do
   while lines[0][-4..-2] != "YES" do
 	sleep 0.2
 	lines = read_temp_raw
@@ -32,8 +31,6 @@ def read_temp()
 end
 
 while true do
-  #p("Current Temp: " + read_temp().to_s + " Fahrenheit")
-  p(read_temp)
+  puts("Current Temp: " + read_temp().to_s + " Fahrenheit")
   sleep 1.0
 end
-
