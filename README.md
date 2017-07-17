@@ -35,6 +35,6 @@ The following is a list of all the components that are present in the KegPi righ
 This part of the project is a bit more of a WIP. While the underlying scripts are more or less written, there are some key features that will be implemented in the coming weeks/months:
 - [ ] Dashboard displaying current statistics about the kegerator/kegs (e.g., temperature, door status, volume left in kegs)
 - [ ] SMS alerting for temperature and door status
-- [ ]Slack integration to allow for alerts in Slack channel
+- [ ] Slack integration to allow for alerts in Slack channel
 
 Again, the goal here is for this to be a learning experience for me in writing code (Ruby, in this case) and also for me to share the project and enable other folks to create the same thing.
