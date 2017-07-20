@@ -32,6 +32,6 @@ end
 
 # http://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Style/InfiniteLoop
 loop do
-  puts('Current Temp: ' + read_temp.to_s + ' Fahrenheit')
+  puts("Current Temp: " + read_temp().round(2).to_s + " Fahrenheit")
   sleep 1.0
 end
