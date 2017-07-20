@@ -38,3 +38,10 @@ This part of the project is a bit more of a WIP. While the underlying scripts ar
 - [ ] Slack integration to allow for alerts in Slack channel
 
 Again, the goal here is for this to be a learning experience for me in writing code (Ruby, in this case) and also for me to share the project and enable other folks to create the same thing.
+
+#### Running the scripts
+As they currently stand, the Ruby bits are just some starting scripts. As the project evolves, they're going to get folded into something a bit more complex. But, you're welcome to run them as they are to see how they work. Simply do:
+
+    ruby name_of_script.rb
+
+That will get you the values of the door, as well as the temperature for the time being. Flow values are still being toyed with until I can get stuff addressed there.  

@@ -28,3 +28,4 @@ def count_pulse(channel)
 end
 
 RPi::GPIO.add_event_detect(KEG2PIN, GPIO.FALLING, callback=count_pulse)
+
