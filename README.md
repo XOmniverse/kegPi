@@ -45,3 +45,6 @@ As they currently stand, the Ruby bits are just some starting scripts. As the pr
     ruby name_of_script.rb
 
 That will get you the values of the door, as well as the temperature for the time being. Flow values are still being toyed with until I can get stuff addressed there.  
+
+#### More info about 'rpi_gpio'
+[The rpi_gpio gem](https://github.com/ClockVapor/rpi_gpio) is a Ruby implementation of the Python [RPi.GPIO module](https://pypi.python.org/pypi/RPi.GPIO). ClockVapor has great examples on the rpo for the Ruby gem, and you can find any additional info you may need over on the Python module site. 
