@@ -31,6 +31,6 @@ def read_temp()
 end
 
 while true do
-  puts("Current Temp: " + read_temp().to_s + " Fahrenheit")
+  puts("Current Temp: " + read_temp().round(2).to_s + " Fahrenheit")
   sleep 1.0
 end
