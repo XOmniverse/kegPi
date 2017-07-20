@@ -16,7 +16,7 @@ def read_temp
 
   while lines[0][-4..-2] != 'YES'
     sleep 0.2
-    lines = File.read(DEVICE_FILE)
+	lines = File.readlines(DEVICE_FILE)
   end
 
   equals_pos = lines[1].index('t=')
